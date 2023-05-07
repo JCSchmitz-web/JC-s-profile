@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #EEEEEE;
+color: #222831;
+font-size: 17px;
+text-align: center;
+}
+
+.container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  margin:20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+
+/* Styles for the picture */
+img {
+display: block;
+margin: 0 auto;
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+transform: rotate(360deg);
+}
+
+/* Styles for headers */
+h1, h2 {
+text-align: center;
+margin-top: 40px;
+}
+
+h1 {
+font-size: 48px;
+font-weight: bold;
+color: #112D4E;
+text-shadow: 1px 1px 1px #3F72AF;
+}
+
+h2 {
+font-size: 32px;
+font-weight: bold;
+color: #112D4E;
+}
+
+/* Styles for paragraphs */
+p {
+line-height: 1.5;
+text-align: center;
+margin: 20px 0;
+}
+
+/* styles for the list */
+ul {
+list-style: none;
+margin: 20px 0;
+padding: 0;
+text-align:center ;
+}
+
+li {
+margin-bottom: 10px;
+padding: 10px;
+display:inline
+}
+
+/* Styles for the links */
+a {
+color: #112D4E;
+text-decoration: none;
+display: inline;
+}
+
+.linkedin-btn {
+  display: inline-block;
+  background-color: #3282B8;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.linkedin-btn:hover {
+  background-color: #BBE1FA;
+  cursor: pointer;
+}
+
+a:hover {
+text-decoration: underline;
+color: 0F4C75;
+}
+
+/* Styles for icons */
+.fa-brands {
+font-size: 50px;
+margin-right: 30px;
+}
+
+.fa-spin {
+animation: fa-spin 2s linear infinite;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+
+/* Styles for the picture */
+img {
+width: 150px;
+height: 150px;
+}
+
+/* Styles for headers */
+h1 {
+font-size: 36px;
+}
+
+h2 {
+font-size: 28px;
+}
+
+/* Styles for paragraphs */
+p {
+font-size: 16px;
+}
+
+/* styles for the list */
+ul {
+margin: 10px 0;
+}
+
+/* Styles for icons */
+.fa-brands {
+font-size: 40px;
+margin-right: 20px;
+}
+
+}
+
